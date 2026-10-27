@@ -1,0 +1,7 @@
+k=4  T_k=exp(29.844)  pieces=6392  constant on [3,T_k] <= 1.54798
+k=5  T_k=exp(26.820)  pieces=5997  constant on [3,T_k] <= 1.68940
+k=6  T_k=exp(32.780)  pieces=6747  constant on [3,T_k] <= 1.77986
+k=7  T_k=exp(46.214)  pieces=8113  constant on [3,T_k] <= 1.83178
+k=8  T_k=exp(71.001)  pieces=9940  constant on [3,T_k] <= 1.86126
+k=9  T_k=exp(115.401)  pieces=12125  constant on [3,T_k] <= 1.87781
+max over 4<=k<=9: 1.87781  (<= 2: True); for t>=T_k Yang Sec.3.2 gives 1.546

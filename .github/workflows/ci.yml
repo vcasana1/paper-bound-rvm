@@ -1,0 +1,57 @@
+name: build and audit
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install elan
+        run: |
+          curl -sSfL https://github.com/leanprover/elan/releases/latest/download/elan-x86_64-unknown-linux-gnu.tar.gz | tar xz
+          ./elan-init -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: Mathlib cache
+        working-directory: lean
+        run: lake exe cache get
+      - name: Build
+        working-directory: lean
+        id: build
+        run: |
+          set -o pipefail
+          lake build 2>&1 | tee build.log
+      - name: Audit axioms
+        working-directory: lean
+        if: success()
+        run: sh scripts/audit.sh 2>&1 | tee audit.log
+      - name: Publish logs to branch ci-logs
+        if: always()
+        run: |
+          mkdir -p /tmp/logs && cp lean/build.log /tmp/logs/ 2>/dev/null || true
+          cp lean/audit.log lean/Audit_output.txt /tmp/logs/ 2>/dev/null || true
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git fetch origin ci-logs:ci-logs 2>/dev/null; then
+            git checkout -f ci-logs
+          else
+            git checkout --orphan ci-logs && git rm -rfq . && git clean -fdxq
+          fi
+          printf '.lake\n' > .gitignore
+          git rm -rq --cached .lake 2>/dev/null || true
+          mkdir -p "run-${{ github.run_id }}" && cp /tmp/logs/* "run-${{ github.run_id }}/"
+          echo "${{ github.sha }} ${{ github.ref_name }} $(date -u)" > "run-${{ github.run_id }}/COMMIT"
+          git add -A && git commit -qm "logs of run ${{ github.run_id }} (${{ github.sha }})" || true
+          git push origin ci-logs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: logs
+          path: |
+            lean/build.log
+            lean/audit.log
+            lean/Audit_output.txt
+          if-no-files-found: ignore
