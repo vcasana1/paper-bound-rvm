@@ -1,0 +1,2623 @@
+⚠ [6630/6824] Replayed PaperMath.Common.ZetaSeries
+warning: PaperMath/Common/ZetaSeries.lean: imports `Mathlib.NumberTheory.LSeries.RiemannZeta` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/ZetaSeries.lean: imports `Mathlib.NumberTheory.ZetaValues` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/ZetaSeries.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/ZetaSeries.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/ZetaSeries.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/ZetaSeries.lean: imports `Mathlib.Analysis.PSeries` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/ZetaSeries.lean: imports `Mathlib.Topology.Algebra.InfiniteSum.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/ZetaSeries.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Common/ZetaSeries.lean:12:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/ZetaSeries.lean:17:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/ZetaSeries.lean:21:100: This line exceeds the 100 character limit, please shorten it!
+You can use "string gaps" to format long strings: within a string quotation, using a '\' at the end of a line allows you to continue the string on the following line, removing all intervening whitespace.
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/ZetaSeries.lean:107:4: `simp` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: PaperMath/Common/ZetaSeries.lean:107:4: Try this:
+  [apply] simp only [CharP.cast_eq_zero, ne_eq, OfNat.ofNat_ne_zero, not_false_eq_true, zero_pow, div_zero,
+    Real.log_zero, mul_zero, sub_self, one_div, inv_nonneg]
+info: PaperMath/Common/ZetaSeries.lean:107:10: `positivity`
+modifies the current goal, which was modified by the flexible tactic `simp` on line 107!
+warning: PaperMath/Common/ZetaSeries.lean:166:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/ZetaSeries.lean:171:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/ZetaSeries.lean:183:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6631/6824] Ran PaperMath.Common.ZetaSeries:irArts
+warning: PaperMath/Common/ZetaSeries.lean: imports `Mathlib.NumberTheory.LSeries.RiemannZeta` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/ZetaSeries.lean: imports `Mathlib.NumberTheory.ZetaValues` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/ZetaSeries.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/ZetaSeries.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/ZetaSeries.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/ZetaSeries.lean: imports `Mathlib.Analysis.PSeries` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/ZetaSeries.lean: imports `Mathlib.Topology.Algebra.InfiniteSum.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6632/6824] Replayed PaperMath.Common.LogBounds
+warning: PaperMath/Common/LogBounds.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/LogBounds.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/LogBounds.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Common/LogBounds.lean:11:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/LogBounds.lean:12:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/LogBounds.lean:44:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/LogBounds.lean:46:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/LogBounds.lean:54:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/LogBounds.lean:56:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6633/6824] Ran PaperMath.Common.LogBounds:irArts
+warning: PaperMath/Common/LogBounds.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/LogBounds.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6634/6824] Replayed PaperMath.Common.ZetaTail
+warning: PaperMath/Common/ZetaTail.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/ZetaTail.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Common/ZetaTail.lean:8:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/ZetaTail.lean:10:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/ZetaTail.lean:11:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/ZetaTail.lean:12:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/ZetaTail.lean:34:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/ZetaTail.lean:52:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/ZetaTail.lean:239:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6635/6824] Ran PaperMath.Common.ZetaTail:irArts
+warning: PaperMath/Common/ZetaTail.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6638/6824] Replayed PaperMath.Common.TrigBounds
+warning: PaperMath/Common/TrigBounds.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Series` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/TrigBounds.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Inverse` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/TrigBounds.lean: imports `Mathlib.Analysis.SpecificLimits.Normed` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/TrigBounds.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/TrigBounds.lean: imports `Mathlib.Analysis.Real.Sqrt` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/TrigBounds.lean: imports `Mathlib.Tactic.NormNum.NatFactorial` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/TrigBounds.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Common/TrigBounds.lean:11:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/TrigBounds.lean:12:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/TrigBounds.lean:13:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/TrigBounds.lean:16:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/TrigBounds.lean:101:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/TrigBounds.lean:106:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6639/6824] Ran PaperMath.Common.TrigBounds:irArts
+warning: PaperMath/Common/TrigBounds.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Series` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/TrigBounds.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Inverse` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/TrigBounds.lean: imports `Mathlib.Analysis.SpecificLimits.Normed` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/TrigBounds.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/TrigBounds.lean: imports `Mathlib.Analysis.Real.Sqrt` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/TrigBounds.lean: imports `Mathlib.Tactic.NormNum.NatFactorial` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6640/6824] Replayed PaperMath.Common.HingeIntegral
+warning: PaperMath/Common/HingeIntegral.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/HingeIntegral.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Inverse` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/HingeIntegral.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Common/HingeIntegral.lean:14:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/HingeIntegral.lean:17:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/HingeIntegral.lean:18:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/HingeIntegral.lean:148:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6641/6824] Ran PaperMath.Common.HingeIntegral:irArts
+warning: PaperMath/Common/HingeIntegral.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/HingeIntegral.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Inverse` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6642/6824] Replayed PaperMath.Common.Zeta23Port.MV.Spacing
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean: imports `Mathlib.Analysis.Complex.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean: imports `Mathlib.Algebra.BigOperators.Field` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean: imports `Mathlib.Analysis.InnerProductSpace.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean: imports `Mathlib.MeasureTheory.Integral.Bochner.Set` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean:68:0: automatically included section variable(s) unused in theorem `Zeta23.MV.Adm.itv_disjoint`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean:68:6: `itv_disjoint` does not use the following hypothesis in its type:
+  • [DecidableEq ι] (#3)
+
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+
+Note: This linter can be disabled with `set_option linter.unusedDecidableInType false`
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean:68:6: `itv_disjoint` does not use the following hypothesis in its type:
+  • [Fintype ι] (#2)
+
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+
+Note: This linter can be disabled with `set_option linter.unusedFintypeInType false`
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean:163:8: automatically included section variable(s) unused in theorem `_private.PaperMath.Common.Zeta23Port.MV.Spacing.0.Zeta23.MV.Adm.mem_window`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean:163:14: `mem_window` does not use the following hypothesis in its type:
+  • [DecidableEq ι] (#3)
+
+Consider removing this hypothesis and using `classical` in the proof instead. For terms, consider using `open scoped Classical in` at the term level (not the command level).
+
+Note: This linter can be disabled with `set_option linter.unusedDecidableInType false`
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean:163:14: `mem_window` does not use the following hypothesis in its type:
+  • [Fintype ι] (#2)
+
+Consider replacing this hypothesis with the corresponding instance of `Finite` and using `Fintype.ofFinite` in the proof, or removing it entirely.
+
+Note: This linter can be disabled with `set_option linter.unusedFintypeInType false`
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean:236:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean:370:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean:3:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6643/6824] Ran PaperMath.Common.Zeta23Port.MV.Spacing:irArts
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean: imports `Mathlib.Analysis.Complex.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean: imports `Mathlib.Algebra.BigOperators.Field` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean: imports `Mathlib.Analysis.InnerProductSpace.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/MV/Spacing.lean: imports `Mathlib.MeasureTheory.Integral.Bochner.Set` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6644/6824] Replayed PaperMath.Common.Zeta23Port.MV.Quadratic
+warning: PaperMath/Common/Zeta23Port/MV/Quadratic.lean:3:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6646/6824] Replayed PaperMath.Common.Zeta23Port.MV.EigenIdentity
+warning: PaperMath/Common/Zeta23Port/MV/EigenIdentity.lean: imports `Mathlib.Analysis.Complex.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/MV/EigenIdentity.lean: imports `Mathlib.Algebra.BigOperators.Field` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/MV/EigenIdentity.lean:3:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6647/6824] Ran PaperMath.Common.Zeta23Port.MV.EigenIdentity:irArts
+warning: PaperMath/Common/Zeta23Port/MV/EigenIdentity.lean: imports `Mathlib.Analysis.Complex.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/MV/EigenIdentity.lean: imports `Mathlib.Algebra.BigOperators.Field` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6648/6824] Replayed PaperMath.Common.Zeta23Port.MV.Eigen
+warning: PaperMath/Common/Zeta23Port/MV/Eigen.lean:3:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6650/6824] Replayed PaperMath.Common.Zeta23Port.Hypotheses
+warning: PaperMath/Common/Zeta23Port/Hypotheses.lean: imports `Mathlib.Analysis.Complex.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/Hypotheses.lean: imports `Mathlib.Algebra.BigOperators.Field` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/Hypotheses.lean:9:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `open scoped BigOperators ComplexConjugate`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Common/Zeta23Port/Hypotheses.lean:21:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/Zeta23Port/Hypotheses.lean:2:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/Zeta23Port/Hypotheses.lean:3:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6651/6824] Ran PaperMath.Common.Zeta23Port.Hypotheses:irArts
+warning: PaperMath/Common/Zeta23Port/Hypotheses.lean: imports `Mathlib.Analysis.Complex.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/Hypotheses.lean: imports `Mathlib.Algebra.BigOperators.Field` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6652/6824] Replayed PaperMath.Common.Zeta23Port.MV
+warning: PaperMath/Common/Zeta23Port/MV.lean: imports `Mathlib.Analysis.InnerProductSpace.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/MV.lean:45:0: The module doc-string for a file should be the first command after the imports
+and any necessary `set_option` commands.
+Please, add a module doc-string (`/-! ... -/`) before `noncomputable section`.
+
+Hint: Type `m(odule docstring) + [tab]` to insert a template via snippet.
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Common/Zeta23Port/MV.lean:3:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6653/6824] Ran PaperMath.Common.Zeta23Port.MV:irArts
+warning: PaperMath/Common/Zeta23Port/MV.lean: imports `Mathlib.Analysis.InnerProductSpace.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6654/6824] Replayed PaperMath.Common.Zeta23Port.LinAlg.PosIndex
+warning: PaperMath/Common/Zeta23Port/LinAlg/PosIndex.lean: imports `Mathlib.Analysis.Matrix.PosDef` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Common/Zeta23Port/LinAlg/PosIndex.lean:3:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/Zeta23Port/LinAlg/PosIndex.lean:12:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/Zeta23Port/LinAlg/PosIndex.lean:13:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/Zeta23Port/LinAlg/PosIndex.lean:14:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/Zeta23Port/LinAlg/PosIndex.lean:15:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/Zeta23Port/LinAlg/PosIndex.lean:16:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6655/6824] Ran PaperMath.Common.Zeta23Port.LinAlg.PosIndex:irArts
+warning: PaperMath/Common/Zeta23Port/LinAlg/PosIndex.lean: imports `Mathlib.Analysis.Matrix.PosDef` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6656/6824] Replayed PaperMath.Common.Zeta23Port.LinAlg.HermitianPosPart
+warning: PaperMath/Common/Zeta23Port/LinAlg/HermitianPosPart.lean:2:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/Zeta23Port/LinAlg/HermitianPosPart.lean:3:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/Zeta23Port/LinAlg/HermitianPosPart.lean:12:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/Zeta23Port/LinAlg/HermitianPosPart.lean:13:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/Zeta23Port/LinAlg/HermitianPosPart.lean:14:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/Zeta23Port/LinAlg/HermitianPosPart.lean:15:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/Zeta23Port/LinAlg/HermitianPosPart.lean:16:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6658/6824] Replayed PaperMath.Common.Zeta23Port.MV.Duality
+warning: PaperMath/Common/Zeta23Port/MV/Duality.lean:57:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: PaperMath/Common/Zeta23Port/MV/Duality.lean:57:28: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: PaperMath/Common/Zeta23Port/MV/Duality.lean:137:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: PaperMath/Common/Zeta23Port/MV/Duality.lean:134:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/Zeta23Port/MV/Duality.lean:184:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: PaperMath/Common/Zeta23Port/MV/Duality.lean:185:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: PaperMath/Common/Zeta23Port/MV/Duality.lean:193:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Common/Zeta23Port/MV/Duality.lean:3:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6660/6824] Replayed PaperMath.Common.Zeta23Port.MV.Final
+warning: PaperMath/Common/Zeta23Port/MV/Final.lean:2:0: * `Ported from anth`:
+Copyright line should start with 'Copyright (c) YYYY'
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Common/Zeta23Port/MV/Final.lean:4:70: * `o Mathlib v4.36.0-rc1.`:
+Copyright line should end with '. All rights reserved.'
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Common/Zeta23Port/MV/Final.lean:4:93: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Common/Zeta23Port/MV/Final.lean:3:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6662/6824] Replayed PaperMath.Papers.RvmClock.Maximal
+warning: PaperMath/Papers/RvmClock/Maximal.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Maximal.lean: imports `Mathlib.Data.Int.Interval` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Maximal.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:44:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:57:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:58:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:63:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:80:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:109:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:113:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:126:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:127:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:131:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:188:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:190:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:198:9: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: PaperMath/Papers/RvmClock/Maximal.lean:203:9: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: PaperMath/Papers/RvmClock/Maximal.lean:204:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:215:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:223:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:248:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:256:32: Variable name `hD` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hD
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:262:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:273:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:313:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:345:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:368:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:375:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:380:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:404:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:405:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Maximal.lean:406:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6663/6824] Ran PaperMath.Papers.RvmClock.Maximal:irArts
+warning: PaperMath/Papers/RvmClock/Maximal.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Maximal.lean: imports `Mathlib.Data.Int.Interval` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6664/6824] Replayed PaperMath.Papers.RvmClock.Bathtub
+warning: PaperMath/Papers/RvmClock/Bathtub.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Bathtub.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/Bathtub.lean:22:38: `Set.inter_union_diff` has been deprecated: Use `Set.inter_union_sdiff` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵i̵n̵t̵e̵r̵_̵u̵n̵i̵o̵n̵_̵d̵i̵f̵f̵i̲n̲t̲e̲r̲_̲u̲n̲i̲o̲n̲_̲s̲d̲i̲f̲f̲
+warning: PaperMath/Papers/RvmClock/Bathtub.lean:23:68: `Set.inter_union_diff` has been deprecated: Use `Set.inter_union_sdiff` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵i̵n̵t̵e̵r̵_̵u̵n̵i̵o̵n̵_̵d̵i̵f̵f̵i̲n̲t̲e̲r̲_̲u̲n̲i̲o̲n̲_̲s̲d̲i̲f̲f̲
+warning: PaperMath/Papers/RvmClock/Bathtub.lean:14:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Bathtub.lean:28:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Bathtub.lean:32:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6665/6824] Ran PaperMath.Papers.RvmClock.Bathtub:irArts
+warning: PaperMath/Papers/RvmClock/Bathtub.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6668/6824] Replayed PaperMath.Papers.RvmClock.Transfer
+warning: PaperMath/Papers/RvmClock/Transfer.lean: imports `Mathlib.MeasureTheory.Function.Floor` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Transfer.lean: imports `Mathlib.MeasureTheory.Function.L2Space` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Transfer.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:93:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:109:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:111:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:143:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:147:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:151:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:159:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:169:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:189:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:243:74: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: PaperMath/Papers/RvmClock/Transfer.lean:244:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: PaperMath/Papers/RvmClock/Transfer.lean:262:74: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: PaperMath/Papers/RvmClock/Transfer.lean:263:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: PaperMath/Papers/RvmClock/Transfer.lean:231:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:243:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:248:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:250:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:252:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:262:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:267:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:271:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:273:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:275:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:322:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:329:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:330:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:333:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:342:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:355:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:356:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:385:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:413:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:420:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:436:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:442:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:453:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:467:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:468:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:472:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:480:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:497:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:500:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:504:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:509:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:518:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:519:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Transfer.lean:534:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6669/6824] Ran PaperMath.Papers.RvmClock.Transfer:irArts
+warning: PaperMath/Papers/RvmClock/Transfer.lean: imports `Mathlib.MeasureTheory.Function.Floor` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Transfer.lean: imports `Mathlib.MeasureTheory.Function.L2Space` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6678/6824] Replayed PaperMath.Papers.RvmClock.Construction
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.Analysis.SpecialFunctions.Complex.Arg` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Complex` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.NumberTheory.PrimeCounting` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Inverse` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.Data.Int.Log` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.Topology.Order.IntermediateValue` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.MeasureTheory.Measure.Lebesgue.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Continuity` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/Construction.lean:52:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Construction.lean:53:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Construction.lean:124:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Construction.lean:126:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Construction.lean:136:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Construction.lean:166:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Construction.lean:191:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Construction.lean:194:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Construction.lean:231:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: PaperMath/Papers/RvmClock/Construction.lean:237:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Construction.lean:321:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Construction.lean:323:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Construction.lean:324:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Construction.lean:356:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Construction.lean:424:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Construction.lean:470:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: PaperMath/Papers/RvmClock/Construction.lean:469:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Construction.lean:495:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6679/6824] Ran PaperMath.Papers.RvmClock.Construction:irArts
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.Analysis.SpecialFunctions.Complex.Arg` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Complex` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.NumberTheory.PrimeCounting` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Inverse` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.Data.Int.Log` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.Topology.Order.IntermediateValue` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.MeasureTheory.Measure.Lebesgue.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Continuity` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Construction.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6680/6824] Replayed PaperMath.Papers.RvmClock.MeanValue
+warning: PaperMath/Papers/RvmClock/MeanValue.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:46:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:47:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:79:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:103:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:103:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:104:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:104:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:81:53: Variable name `hC` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hC
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:81:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:92:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:94:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:105:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:130:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:151:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:152:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:197:30: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:199:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:214:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:157:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:164:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:165:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:168:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:177:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:204:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:210:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/MeanValue.lean:222:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6681/6824] Ran PaperMath.Papers.RvmClock.MeanValue:irArts
+warning: PaperMath/Papers/RvmClock/MeanValue.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6718/6824] Replayed PaperMath.Papers.RvmClock.Mertens
+warning: PaperMath/Papers/RvmClock/Mertens.lean: imports `Mathlib.NumberTheory.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Mertens.lean: imports `Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Mertens.lean: imports `Mathlib.Data.Nat.Factorization.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Mertens.lean: imports `Mathlib.Algebra.BigOperators.Intervals` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Mertens.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Mertens.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/Mertens.lean:27:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Mertens.lean:29:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Mertens.lean:59:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Mertens.lean:75:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Mertens.lean:89:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Mertens.lean:93:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Mertens.lean:98:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Mertens.lean:136:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Mertens.lean:154:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6719/6824] Ran PaperMath.Papers.RvmClock.Mertens:irArts
+warning: PaperMath/Papers/RvmClock/Mertens.lean: imports `Mathlib.NumberTheory.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Mertens.lean: imports `Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Mertens.lean: imports `Mathlib.Data.Nat.Factorization.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Mertens.lean: imports `Mathlib.Algebra.BigOperators.Intervals` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Mertens.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6720/6824] Replayed PaperMath.Papers.RvmClock.Gaps
+warning: PaperMath/Papers/RvmClock/Gaps.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Gaps.lean: imports `Mathlib.Analysis.SpecificLimits.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Gaps.lean: imports `Mathlib.MeasureTheory.Measure.Lebesgue.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Gaps.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/Gaps.lean:102:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: PaperMath/Papers/RvmClock/Gaps.lean:88:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Gaps.lean:101:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Gaps.lean:113:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Gaps.lean:119:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Gaps.lean:126:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6721/6824] Ran PaperMath.Papers.RvmClock.Gaps:irArts
+warning: PaperMath/Papers/RvmClock/Gaps.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Gaps.lean: imports `Mathlib.Analysis.SpecificLimits.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Gaps.lean: imports `Mathlib.MeasureTheory.Measure.Lebesgue.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6722/6824] Replayed PaperMath.Papers.RvmClock.Inputs
+warning: PaperMath/Papers/RvmClock/Inputs.lean: imports `Mathlib.MeasureTheory.Function.SpecialFunctions.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Inputs.lean: imports `Mathlib.MeasureTheory.Integral.Bochner.Set` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Inputs.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:65:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:88:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:135:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:141:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:155:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:163:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:166:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:212:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:214:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:215:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:218:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:223:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:232:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:234:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:243:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:263:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:330:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:305:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:314:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Inputs.lean:324:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6723/6824] Ran PaperMath.Papers.RvmClock.Inputs:irArts
+warning: PaperMath/Papers/RvmClock/Inputs.lean: imports `Mathlib.MeasureTheory.Function.SpecialFunctions.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Inputs.lean: imports `Mathlib.MeasureTheory.Integral.Bochner.Set` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6730/6824] Replayed PaperMath.Papers.RvmClock.PrimeFourth
+warning: PaperMath/Papers/RvmClock/PrimeFourth.lean: imports `Mathlib.Algebra.Order.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/PrimeFourth.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/PrimeFourth.lean:20:52: Variable name `hq` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hq
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PaperMath/Papers/RvmClock/PrimeFourth.lean:67:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/PrimeFourth.lean:77:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/PrimeFourth.lean:112:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6731/6824] Ran PaperMath.Papers.RvmClock.PrimeFourth:irArts
+warning: PaperMath/Papers/RvmClock/PrimeFourth.lean: imports `Mathlib.Algebra.Order.Chebyshev` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6732/6824] Replayed PaperMath.Papers.RvmClock.Phase
+warning: PaperMath/Papers/RvmClock/Phase.lean: imports `Mathlib.Analysis.SpecialFunctions.Complex.LogBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Phase.lean: imports `Mathlib.Analysis.PSeries` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Phase.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/Phase.lean:75:37: This simp argument is unused:
+  Complex.div_im
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Complex.sub_im]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PaperMath/Papers/RvmClock/Phase.lean:74:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Phase.lean:88:70: `Nat.infinite_setOf_prime` has been deprecated: Use `Nat.infinite_setOfPred_prime` instead
+
+Hint: Replace the deprecated name:
+  Nat.infinite_setOfP̲r̲e̲d̲_prime
+warning: PaperMath/Papers/RvmClock/Phase.lean:94:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Phase.lean:117:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6733/6824] Ran PaperMath.Papers.RvmClock.Phase:irArts
+warning: PaperMath/Papers/RvmClock/Phase.lean: imports `Mathlib.Analysis.SpecialFunctions.Complex.LogBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Phase.lean: imports `Mathlib.Analysis.PSeries` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6734/6824] Replayed PaperMath.Papers.RvmClock.Fourth
+warning: PaperMath/Papers/RvmClock/Fourth.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/Fourth.lean:90:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Fourth.lean:119:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Fourth.lean:166:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Fourth.lean:167:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Fourth.lean:177:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Fourth.lean:194:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Fourth.lean:249:39: `Nat.infinite_setOf_prime` has been deprecated: Use `Nat.infinite_setOfPred_prime` instead
+
+Hint: Replace the deprecated name:
+  Nat.infinite_setOfP̲r̲e̲d̲_prime
+warning: PaperMath/Papers/RvmClock/Fourth.lean:218:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Fourth.lean:275:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Fourth.lean:344:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Fourth.lean:346:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Fourth.lean:370:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Fourth.lean:386:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Fourth.lean:388:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Fourth.lean:396:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Fourth.lean:399:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Fourth.lean:429:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6736/6824] Replayed PaperMath.Papers.RvmClock.Sublevel
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:22:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:65:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:174:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:206:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:253:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:274:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:274:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:296:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:343:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:390:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:358:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:432:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:456:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:515:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:522:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:531:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:533:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:534:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:535:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:536:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:556:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:641:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:657:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:671:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:715:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:733:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Sublevel.lean:734:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6738/6824] Replayed PaperMath.Papers.RvmClock.Profile
+warning: PaperMath/Papers/RvmClock/Profile.lean: imports `Mathlib.Topology.Order.OrderClosed` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Profile.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Profile.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:41:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:50:25: Variable name `h1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:50:31: missing space in the source
+
+This part of the code
+  '1/2 ≤ σ)'
+should be written as
+  '1 / 2'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:50:50: missing space in the source
+
+This part of the code
+  '5/7) :'
+should be written as
+  '5 / 7)'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:57:31: missing space in the source
+
+This part of the code
+  '5/7 ≤ σ)'
+should be written as
+  '5 / 7'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:57:50: missing space in the source
+
+This part of the code
+  '5/6) :'
+should be written as
+  '5 / 6)'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:64:31: missing space in the source
+
+This part of the code
+  '5/6 ≤ σ)'
+should be written as
+  '5 / 6'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:64:51: missing space in the source
+
+This part of the code
+  '28/31) :'
+should be written as
+  '28 / 31)'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:71:32: missing space in the source
+
+This part of the code
+  '28/31 ≤'
+should be written as
+  '28 / 31'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:71:53: missing space in the source
+
+This part of the code
+  '17/18) :'
+should be written as
+  '17 / 18)'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:78:32: missing space in the source
+
+This part of the code
+  '17/18 ≤'
+should be written as
+  '17 / 18'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:78:54: missing space in the source
+
+This part of the code
+  '123/127)'
+should be written as
+  '123 / 127)'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:86:33: missing space in the source
+
+This part of the code
+  '123/127 ≤'
+should be written as
+  '123 / 127'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:86:56: missing space in the source
+
+This part of the code
+  '167/170)'
+should be written as
+  '167 / 170)'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:94:33: missing space in the source
+
+This part of the code
+  '167/170 ≤'
+should be written as
+  '167 / 170'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:109:31: missing space in the source
+
+This part of the code
+  '1/2 ≤ σ)'
+should be written as
+  '1 / 2'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:126:28: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:133:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: PaperMath/Papers/RvmClock/Profile.lean:132:41: missing space in the source
+
+This part of the code
+  '1/2) :'
+should be written as
+  '1 / 2)'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/Profile.lean:135:37: missing space in the source
+
+This part of the code
+  '1/2 ≤ σ)'
+should be written as
+  '1 / 2'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+⚠ [6739/6824] Ran PaperMath.Papers.RvmClock.Profile:irArts
+warning: PaperMath/Papers/RvmClock/Profile.lean: imports `Mathlib.Topology.Order.OrderClosed` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Profile.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6798/6824] Replayed PaperMath.Papers.RvmClock.ZetaLines
+warning: PaperMath/Papers/RvmClock/ZetaLines.lean: imports `Mathlib.NumberTheory.Harmonic.ZetaAsymp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/ZetaLines.lean: imports `Mathlib.Analysis.SpecialFunctions.Complex.Log` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/ZetaLines.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/ZetaLines.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/ZetaLines.lean:9:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaLines.lean:10:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaLines.lean:30:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaLines.lean:31:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaLines.lean:39:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaLines.lean:54:27: Variable name `hσ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hσ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PaperMath/Papers/RvmClock/ZetaLines.lean:54:33: missing space in the source
+
+This part of the code
+  '1/2 ≤ σ)'
+should be written as
+  '1 / 2'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/ZetaLines.lean:73:71: missing space in the source
+
+This part of the code
+  '(1/2 : ℝ)'
+should be written as
+  '(1 / 2'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/ZetaLines.lean:146:70: missing space in the source
+
+This part of the code
+  '1/2 ≤ a)'
+should be written as
+  '1 / 2'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+⚠ [6799/6824] Ran PaperMath.Papers.RvmClock.ZetaLines:irArts
+warning: PaperMath/Papers/RvmClock/ZetaLines.lean: imports `Mathlib.NumberTheory.Harmonic.ZetaAsymp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/ZetaLines.lean: imports `Mathlib.Analysis.SpecialFunctions.Complex.Log` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/ZetaLines.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6800/6824] Replayed PaperMath.Papers.RvmClock.ZetaNodes
+warning: PaperMath/Papers/RvmClock/ZetaNodes.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/ZetaNodes.lean:4:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaNodes.lean:45:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaNodes.lean:57:26: missing space in the source
+
+This part of the code
+  '(1/2 : ℝ)'
+should be written as
+  '(1 / 2'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/ZetaNodes.lean:79:68: missing space in the source
+
+This part of the code
+  '(1/2 : ℝ)'
+should be written as
+  '(1 / 2'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+⚠ [6802/6824] Replayed PaperMath.Papers.RvmClock.ZetaBound
+warning: PaperMath/Papers/RvmClock/ZetaBound.lean: imports `Mathlib.Analysis.Convex.SpecificFunctions.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/ZetaBound.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/ZetaBound.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/ZetaBound.lean:8:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaBound.lean:40:49: `simp at this` is a flexible tactic modifying `this`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: PaperMath/Papers/RvmClock/ZetaBound.lean:40:49: Try this:
+  [apply] simp only [ge_iff_le] at this
+info: PaperMath/Papers/RvmClock/ZetaBound.lean:40:63: `rwa [abs_of_pos ht0] at this`
+uses `this`, which was modified by the flexible tactic `simp` on line 40!
+warning: PaperMath/Papers/RvmClock/ZetaBound.lean:47:29: `simp` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: PaperMath/Papers/RvmClock/ZetaBound.lean:47:29: Try this:
+  [apply] simp only [add_re, re_ofNat, sp_re, add_im, im_ofNat, sp_im, zero_add]
+info: PaperMath/Papers/RvmClock/ZetaBound.lean:50:6: `rw [e]`
+modifies the current goal, which was modified by the flexible tactic `simp` on line 47!
+warning: PaperMath/Papers/RvmClock/ZetaBound.lean:28:70: missing space in the source
+
+This part of the code
+  '(1/2 : ℝ)'
+should be written as
+  '(1 / 2'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+warning: PaperMath/Papers/RvmClock/ZetaBound.lean:141:39: missing space in the source
+
+This part of the code
+  '(1/2), ∀'
+should be written as
+  '(1 / 2),'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+⚠ [6803/6824] Ran PaperMath.Papers.RvmClock.ZetaBound:irArts
+warning: PaperMath/Papers/RvmClock/ZetaBound.lean: imports `Mathlib.Analysis.Convex.SpecificFunctions.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/ZetaBound.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6804/6824] Replayed PaperMath.Papers.RvmClock.Backlund
+warning: PaperMath/Papers/RvmClock/Backlund.lean: imports `Mathlib.NumberTheory.Harmonic.ZetaAsymp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Backlund.lean: imports `Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Backlund.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Backlund.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Backlund.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/Backlund.lean:9:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Backlund.lean:10:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Backlund.lean:56:74: Variable name `hR0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hR0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PaperMath/Papers/RvmClock/Backlund.lean:90:8: `simp` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: PaperMath/Papers/RvmClock/Backlund.lean:90:8: Try this:
+  [apply] simp only [ofReal_add, sub_im, add_im, ofReal_im, mul_im, add_re, ofReal_re, I_im, mul_one, add_zero, I_re,
+    mul_zero, zero_add, one_im, sub_zero]
+info: PaperMath/Papers/RvmClock/Backlund.lean:90:14: `exact abs_le.2 ⟨by linarith, by linarith⟩`
+modifies the current goal, which was modified by the flexible tactic `simp` on line 90!
+warning: PaperMath/Papers/RvmClock/Backlund.lean:99:8: `simp` is a flexible tactic modifying `⊢`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: PaperMath/Papers/RvmClock/Backlund.lean:99:8: Try this:
+  [apply] simp only [sub_im, add_im, ofReal_im, mul_im, ofReal_re, I_im, mul_one, I_re, mul_zero, add_zero, zero_add,
+    one_im, sub_zero]
+info: PaperMath/Papers/RvmClock/Backlund.lean:99:14: `exact abs_le.2 ⟨by linarith, by linarith⟩`
+modifies the current goal, which was modified by the flexible tactic `simp` on line 99!
+warning: PaperMath/Papers/RvmClock/Backlund.lean:93:33: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperMath/Papers/RvmClock/Backlund.lean:93:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperMath/Papers/RvmClock/Backlund.lean:181:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Backlund.lean:267:62: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperMath/Papers/RvmClock/Backlund.lean:267:66: Unused tactic linter: `ring` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperMath/Papers/RvmClock/Backlund.lean:282:65: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperMath/Papers/RvmClock/Backlund.lean:297:15: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperMath/Papers/RvmClock/Backlund.lean:267:66: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperMath/Papers/RvmClock/Backlund.lean:282:65: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperMath/Papers/RvmClock/Backlund.lean:297:15: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [6805/6824] Ran PaperMath.Papers.RvmClock.Backlund:irArts
+warning: PaperMath/Papers/RvmClock/Backlund.lean: imports `Mathlib.NumberTheory.Harmonic.ZetaAsymp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Backlund.lean: imports `Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Backlund.lean: imports `Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Backlund.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6806/6824] Replayed PaperMath.Papers.RvmClock.Explicit
+warning: PaperMath/Papers/RvmClock/Explicit.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Explicit.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Explicit.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Explicit.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/Explicit.lean:10:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6807/6824] Ran PaperMath.Papers.RvmClock.Explicit:irArts
+warning: PaperMath/Papers/RvmClock/Explicit.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Explicit.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/Explicit.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6808/6824] Replayed PaperMath.Papers.RvmClock.Thm13
+warning: PaperMath/Papers/RvmClock/Thm13.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/Thm13.lean:8:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Thm13.lean:9:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Thm13.lean:49:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Thm13.lean:91:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Thm13.lean:35:39: missing space in the source
+
+This part of the code
+  '(1/2), ∀'
+should be written as
+  '(1 / 2),'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+⚠ [6810/6824] Replayed PaperMath.Papers.RvmClock.ZetaConst
+warning: PaperMath/Papers/RvmClock/ZetaConst.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/ZetaConst.lean:40:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6812/6824] Replayed PaperMath.Papers.RvmClock.ZetaSigS
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:8:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:12:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:14:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:15:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:17:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:43:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:49:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:50:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:51:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:52:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:53:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:54:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:55:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:56:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:57:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:58:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:59:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:60:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:61:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:62:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:63:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:64:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:65:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:66:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:67:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:68:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:69:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:70:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:71:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:72:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:73:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:74:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:75:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:76:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:77:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:78:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:79:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:80:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:81:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:82:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:83:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:84:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:85:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:86:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:87:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:88:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:89:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:90:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:91:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:92:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:93:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:94:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:95:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:96:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:105:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaSigS.lean:122:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6814/6824] Replayed PaperMath.Papers.RvmClock.Thm13Zeta
+warning: PaperMath/Papers/RvmClock/Thm13Zeta.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/Thm13Zeta.lean:8:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Thm13Zeta.lean:9:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Thm13Zeta.lean:10:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Thm13Zeta.lean:11:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Thm13Zeta.lean:12:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Thm13Zeta.lean:38:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Thm13Zeta.lean:67:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/Thm13Zeta.lean:43:39: missing space in the source
+
+This part of the code
+  '(1/2), ∀'
+should be written as
+  '(1 / 2),'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+⚠ [6816/6824] Replayed PaperMath.Papers.RvmClock.C1
+warning: PaperMath/Papers/RvmClock/C1.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/C1.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/C1.lean:8:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:11:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:13:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:18:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:102:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:132:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:260:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:266:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:300:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:317:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:318:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:322:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:339:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:340:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:344:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:361:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:362:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:366:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:383:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:384:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:388:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:405:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:406:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:410:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:427:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:428:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:432:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:449:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:450:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:454:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:471:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:472:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:476:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:493:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:494:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:498:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:515:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:516:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:520:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:537:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:538:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:542:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:559:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:560:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:564:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:581:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:582:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:586:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:603:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:604:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:608:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:625:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:646:0: Please, write a comment here or remove this line, but do not place empty lines within commands!
+Context:
+                             ↓
+  ⏎  obtain ⟨l0, u0⟩ := atom0⏎⏎  obtain ⟨l1, u1⟩ := atom1⏎
+
+Note: This linter can be disabled with `set_option linter.style.emptyLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:688:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/C1.lean:682:39: missing space in the source
+
+This part of the code
+  '(1/2), ∀'
+should be written as
+  '(1 / 2),'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+⚠ [6817/6824] Ran PaperMath.Papers.RvmClock.C1:irArts
+warning: PaperMath/Papers/RvmClock/C1.lean: imports `Mathlib.Analysis.SpecialFunctions.Integrals.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [6818/6824] Replayed PaperMath.Papers.RvmClock.ZetaFacts
+warning: PaperMath/Papers/RvmClock/ZetaFacts.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/ZetaFacts.lean:9:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaFacts.lean:10:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaFacts.lean:14:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaFacts.lean:16:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaFacts.lean:42:4: `simp at this` is a flexible tactic modifying `this`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: PaperMath/Papers/RvmClock/ZetaFacts.lean:43:4: `exact hs this`
+uses `this`, which was modified by the flexible tactic `simp` on line 42!
+warning: PaperMath/Papers/RvmClock/ZetaFacts.lean:47:4: `simp at this` is a flexible tactic modifying `this`. Try `simp?` and use the suggested `simp only [...]`. Alternatively, use `suffices` to explicitly state the simplified form.
+
+Note: This linter can be disabled with `set_option linter.flexible false`
+info: PaperMath/Papers/RvmClock/ZetaFacts.lean:48:4: `exact hs this`
+uses `this`, which was modified by the flexible tactic `simp` on line 47!
+warning: PaperMath/Papers/RvmClock/ZetaFacts.lean:36:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaFacts.lean:60:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaFacts.lean:61:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaFacts.lean:69:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/ZetaFacts.lean:87:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6820/6824] Replayed PaperMath.Papers.RvmClock.LambdaB
+warning: PaperMath/Papers/RvmClock/LambdaB.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:1:1: * `-/`:
+Copyright too short!
+
+
+Note: This linter can be disabled with `set_option linter.style.header false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:8:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:12:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:13:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:58:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:67:13: This simp argument is unused:
+  Function.iterate_succ_apply'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Function.iterate_zero_apply, Aproc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:67:72: This simp argument is unused:
+  Aproc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Function.iterate_succ_apply', Function.iterate_zero_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:126:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:153:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:167:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:188:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:189:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:190:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:193:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:224:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:225:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:226:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:228:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:243:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:260:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:265:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:282:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:287:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:304:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:309:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:326:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:331:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:348:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:353:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:370:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:375:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:392:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:397:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:414:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:419:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:436:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:441:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:458:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:463:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:480:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:485:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:502:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:507:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:524:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:529:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:546:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:551:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:568:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:681:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:685:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:689:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:690:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:691:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PaperMath/Papers/RvmClock/LambdaB.lean:699:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [6821/6824] Ran PaperMath.Papers.RvmClock.LambdaB:irArts
+warning: PaperMath/Papers/RvmClock/LambdaB.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (6824 jobs).
+'Common.ZetaSeries.zeta_one_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Common.ZetaSeries.zeta_two_add_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Common.ZetaTail.zeta_le_partial_add_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Common.ZetaTail.rpow_neg_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Common.LogBounds.log_one_sub_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Common.TrigBounds.sin_le_partial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Common.TrigBounds.arcsin_le_of_le_sin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Common.HingeIntegral.int_max_a' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Common.HingeIntegral.int_max_b' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zeta23.MV.mv_hilbert' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.maximal_cube_36' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.transfer_36' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.xClock_lt_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.Sub_subset_two_tau' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.budget_le_two_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.mean_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.sum_log_div_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.nth_prime_le_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.ZetaInputs.gaps_third_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.fourth_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.sublevel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.casanya_method_sublevel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.proportion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.ZetaLines.lemma_4_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.Backlund.master' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.Explicit.thm_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.Explicit.explicit_N' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.Thm13.theorem_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.ZetaConst.log_zeta_ratio_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.ZetaSigS.zeta_sigS_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.ZetaSigS.log_zeta_sigS_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.Thm13.theorem_1_3_zeta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.C1.integral_eStar_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.C1.C1_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.C1.theorem_1_3_numeric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.ZetaFacts.zeta3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.ZetaFacts.functional_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.ZetaFacts.theorem_1_3_lit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.LambdaB.integral_eBStar_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.LambdaB.LambdaB_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.LambdaB.LambdaB_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.LambdaB.two_pi_LambdaB_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RvmClock.LambdaB.Lambda0_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+@RvmClock.transfer : ∀ {γ : ℤ → ℝ} {ℓ₀ ℓ₁ : ℤ} {a b : ℝ},
+  RvmClock.Window γ ℓ₀ ℓ₁ a b →
+    ∀ {f : ℝ → ℝ},
+      Measurable f →
+        MeasureTheory.IntegrableOn (fun t => RvmClock.qf γ ℓ₀ ℓ₁ f t ^ 4) (Set.Ioc a b) MeasureTheory.volume →
+          ∑ k ∈ Finset.Ioc ℓ₀ ℓ₁, (RvmClock.xk f a b k - γ k) ^ 2 ≤
+            2 * 24 ^ (1 / 3) * (∑ l ∈ Finset.Ico ℓ₀ (ℓ₁ + 1), RvmClock.Dg γ l ^ 3) ^ (1 / 2) *
+              (∫ (t : ℝ) in Set.Ioc a b, RvmClock.qf γ ℓ₀ ℓ₁ f t ^ 4) ^ (1 / 2)
+RvmClock.sublevel : ∀ (Z : RvmClock.ZetaInputs),
+  Z.FujiiA →
+    Z.FujiiB →
+      Z.Titchmarsh →
+        ∃ C C' T₀,
+          0 ≤ C ∧
+            0 ≤ C' ∧
+              ∀ (T : ℝ),
+                T₀ ≤ T →
+                  ∑ k ∈ Finset.Ioc (Z.N T) (Z.N (2 * T)), (RvmClock.xClock k - Z.γ (k - 1)) ^ 2 ≤ C * T / Real.log T ∧
+                    (∑ k ∈ Finset.Ioc (Z.N T) (Z.N (2 * T)), (RvmClock.xClock k - Z.γ (k - 1)) ^ 2) /
+                          ↑(Finset.Ioc (Z.N T) (Z.N (2 * T))).card ≤
+                        C' / Real.log T ^ 2 ∧
+                      T * Real.log T / (8 * Real.pi) ≤ ↑(Finset.Ioc (Z.N T) (Z.N (2 * T))).card
+RvmClock.casanya_method_sublevel : ∀ (Z : RvmClock.ZetaInputs),
+  Z.FujiiA →
+    Z.FujiiB →
+      Z.Titchmarsh →
+        ∃ C C' T₀,
+          0 ≤ C ∧
+            0 ≤ C' ∧
+              ∀ (T : ℝ),
+                T₀ ≤ T →
+                  ∑ k ∈ Finset.Ioc (Z.N T) (Z.N (2 * T)), (RvmClock.casanya_method k - Z.γ (k - 1)) ^ 2 ≤
+                      C * T / Real.log T ∧
+                    (∑ k ∈ Finset.Ioc (Z.N T) (Z.N (2 * T)), (RvmClock.casanya_method k - Z.γ (k - 1)) ^ 2) /
+                          ↑(Finset.Ioc (Z.N T) (Z.N (2 * T))).card ≤
+                        C' / Real.log T ^ 2 ∧
+                      T * Real.log T / (8 * Real.pi) ≤ ↑(Finset.Ioc (Z.N T) (Z.N (2 * T))).card
+RvmClock.proportion : ∀ (Z : RvmClock.ZetaInputs),
+  Z.FujiiA →
+    Z.FujiiB →
+      Z.Titchmarsh →
+        ∃ C'' T₀,
+          0 ≤ C'' ∧
+            ∀ (A : ℝ),
+              0 < A →
+                ∀ (T : ℝ),
+                  T₀ ≤ T →
+                    ↑{k ∈ Finset.Ioc (Z.N T) (Z.N (2 * T)) |
+                            A * (2 * Real.pi / Real.log T) < |RvmClock.xClock k - Z.γ (k - 1)|}.card ≤
+                      C'' / A ^ 2 * ↑(Finset.Ioc (Z.N T) (Z.N (2 * T))).card
+RvmClock.Thm13.theorem_1_3 : ∀ (S : ℝ → ℝ),
+  RvmClock.ZetaLines.ExplicitInputs →
+    ∀ (chi : ℂ → ℂ),
+      (∀ σ ∈ Set.Icc (-1e-2) (1 / 2),
+          ∀ (t : ℝ),
+            98 ≤ t →
+              riemannZeta (RvmClock.ZetaLines.sp σ t) =
+                chi (RvmClock.ZetaLines.sp σ t) * riemannZeta (1 - RvmClock.ZetaLines.sp σ t)) →
+        (∀ σ ∈ Set.Icc (-1e-2) (1 / 2),
+            ∀ (t : ℝ), 98 ≤ t → ‖chi (RvmClock.ZetaLines.sp σ t)‖ ≤ 1.0070 * (t / (2 * Real.pi)) ^ (1 / 2 - σ)) →
+          ∀ (Z : ℝ → ℕ → ℝ) (A0 D1 D2 E : ℝ → ℝ) (zc z2c zs : ℝ),
+            0 < zc →
+              0 < z2c →
+                (∀ (T : ℝ),
+                    100 ≤ T →
+                      ∀ (Ψ : ℝ → ℝ),
+                        (∀ (θ : ℝ), Ψ (-θ) = Ψ θ) →
+                          (∀ (n : ℕ),
+                              1 ≤ n →
+                                ∀ (θ : ℝ),
+                                  1 / ↑n *
+                                      Real.log
+                                        ‖RvmClock.Backlund.fB T n
+                                            (RvmClock.Backlund.pt RvmClock.Explicit.cc RvmClock.Explicit.RR θ)‖ ≤
+                                    Ψ θ) →
+                            ∃ nm,
+                              StrictMono nm ∧
+                                ∀ ε > 0,
+                                  ∃ M,
+                                    ∀ m ≥ M,
+                                      Z T (nm m) ≤
+                                        (Real.log (zc / (√((RvmClock.Explicit.cc - 1) ^ 2 + T ^ 2) * z2c)) +
+                                            1 / Real.pi * ∫ (θ : ℝ) in 0..Real.pi, Ψ θ) +
+                                          ε) →
+                  (∀ (T : ℝ),
+                      100 ≤ T →
+                        ∀ (n : ℕ),
+                          1 ≤ n →
+                            |D2 T| ≤
+                              Real.pi * Z T n / (2 * RvmClock.Explicit.dd) + E T / 2 + 3 * Real.pi / (2 * ↑n) +
+                                Real.pi / 4) →
+                    (∀ (T : ℝ),
+                        100 ≤ T →
+                          E T / Real.pi ≤ (640 * RvmClock.Explicit.delS - 112) / (1536 * (3 * T - 1)) + 1 / 1024) →
+                      (∀ (T : ℝ), 100 ≤ T → Real.pi * S T = A0 T + D2 T - D1 T) →
+                        (∀ (T : ℝ), 100 ≤ T → |A0 T| ≤ Real.log zs) →
+                          (∀ (T : ℝ),
+                              100 ≤ T →
+                                D1 T =
+                                  Real.arctan
+                                      ((RvmClock.Explicit.cc +
+                                            (RvmClock.Explicit.cc - 1 / 2) ^ 2 / RvmClock.Explicit.RR -
+                                          1) /
+                                        T) +
+                                    Real.arctan (1 / (2 * T))) →
+                            (∫ (θ : ℝ) in 0..Real.pi,
+                                    RvmClock.Profile.eStar (RvmClock.Explicit.cc + RvmClock.Explicit.RR * Real.cos θ)) /
+                                  (2 * Real.pi * RvmClock.Explicit.dd) ≤
+                                978293e-7 →
+                              Real.log (zc / z2c) ≤ 12.62467 →
+                                Real.log zs ≤ 1.52499 →
+                                  (∀ (T : ℝ), Real.exp 1 ≤ T → T ≤ 100 → |S T| ≤ 2.5167) →
+                                    ∀ (T : ℝ),
+                                      Real.exp 1 ≤ T →
+                                        |S T| ≤ 9783e-5 * Real.log T + 0.7214 * Real.log (Real.log T) + 10.6
+RvmClock.Thm13.theorem_1_3_zeta : ∀ (S : ℝ → ℝ),
+  RvmClock.ZetaLines.ExplicitInputs →
+    ∀ (chi : ℂ → ℂ),
+      (∀ σ ∈ Set.Icc (-1e-2) (1 / 2),
+          ∀ (t : ℝ),
+            98 ≤ t →
+              riemannZeta (RvmClock.ZetaLines.sp σ t) =
+                chi (RvmClock.ZetaLines.sp σ t) * riemannZeta (1 - RvmClock.ZetaLines.sp σ t)) →
+        (∀ σ ∈ Set.Icc (-1e-2) (1 / 2),
+            ∀ (t : ℝ), 98 ≤ t → ‖chi (RvmClock.ZetaLines.sp σ t)‖ ≤ 1.0070 * (t / (2 * Real.pi)) ^ (1 / 2 - σ)) →
+          ∀ (Z : ℝ → ℕ → ℝ) (A0 D1 D2 E : ℝ → ℝ),
+            (∀ (T : ℝ),
+                100 ≤ T →
+                  ∀ (Ψ : ℝ → ℝ),
+                    (∀ (θ : ℝ), Ψ (-θ) = Ψ θ) →
+                      (∀ (n : ℕ),
+                          1 ≤ n →
+                            ∀ (θ : ℝ),
+                              1 / ↑n *
+                                  Real.log
+                                    ‖RvmClock.Backlund.fB T n
+                                        (RvmClock.Backlund.pt RvmClock.Explicit.cc RvmClock.Explicit.RR θ)‖ ≤
+                                Ψ θ) →
+                        ∃ nm,
+                          StrictMono nm ∧
+                            ∀ ε > 0,
+                              ∃ M,
+                                ∀ m ≥ M,
+                                  Z T (nm m) ≤
+                                    (Real.log
+                                          (RvmClock.Thm13.zetaC /
+                                            (√((RvmClock.Explicit.cc - 1) ^ 2 + T ^ 2) * RvmClock.Thm13.zeta2C)) +
+                                        1 / Real.pi * ∫ (θ : ℝ) in 0..Real.pi, Ψ θ) +
+                                      ε) →
+              (∀ (T : ℝ),
+                  100 ≤ T →
+                    ∀ (n : ℕ),
+                      1 ≤ n →
+                        |D2 T| ≤
+                          Real.pi * Z T n / (2 * RvmClock.Explicit.dd) + E T / 2 + 3 * Real.pi / (2 * ↑n) +
+                            Real.pi / 4) →
+                (∀ (T : ℝ),
+                    100 ≤ T → E T / Real.pi ≤ (640 * RvmClock.Explicit.delS - 112) / (1536 * (3 * T - 1)) + 1 / 1024) →
+                  (∀ (T : ℝ), 100 ≤ T → Real.pi * S T = A0 T + D2 T - D1 T) →
+                    (∀ (T : ℝ), 100 ≤ T → |A0 T| ≤ Real.log RvmClock.Thm13.zetaS) →
+                      (∀ (T : ℝ),
+                          100 ≤ T →
+                            D1 T =
+                              Real.arctan
+                                  ((RvmClock.Explicit.cc + (RvmClock.Explicit.cc - 1 / 2) ^ 2 / RvmClock.Explicit.RR -
+                                      1) /
+                                    T) +
+                                Real.arctan (1 / (2 * T))) →
+                        (∫ (θ : ℝ) in 0..Real.pi,
+                                RvmClock.Profile.eStar (RvmClock.Explicit.cc + RvmClock.Explicit.RR * Real.cos θ)) /
+                              (2 * Real.pi * RvmClock.Explicit.dd) ≤
+                            978293e-7 →
+                          (∀ (T : ℝ), Real.exp 1 ≤ T → T ≤ 100 → |S T| ≤ 2.5167) →
+                            ∀ (T : ℝ),
+                              Real.exp 1 ≤ T → |S T| ≤ 9783e-5 * Real.log T + 0.7214 * Real.log (Real.log T) + 10.6
+RvmClock.ZetaConst.log_zeta_ratio_le : Real.log ((riemannZeta ↑1.000002).re / (riemannZeta ↑2.000004).re) ≤ 12.62467
+RvmClock.ZetaSigS.log_zeta_sigS_le : Real.log (riemannZeta ↑RvmClock.Explicit.sigS).re ≤ 1.52499
+RvmClock.LambdaB.LambdaB_le : (∫ (θ : ℝ) in 0..Real.pi, RvmClock.LambdaB.eBStar (1 + Real.cos θ)) /
+    (2 * Real.pi * Real.log 2) ≤
+  96816007e-9
+RvmClock.LambdaB.Lambda0_eq : (∫ (θ : ℝ) in 0..Real.pi, max (1 / 2 - (1 + Real.cos θ)) 0) / (2 * Real.pi * Real.log 2) =
+  (3 * √3 - Real.pi) / (12 * Real.pi * Real.log 2)
+RvmClock.C1.C1_le : (∫ (θ : ℝ) in 0..Real.pi,
+      RvmClock.Profile.eStar (RvmClock.Explicit.cc + RvmClock.Explicit.RR * Real.cos θ)) /
+    (2 * Real.pi * RvmClock.Explicit.dd) ≤
+  978293e-7
+RvmClock.C1.theorem_1_3_numeric : ∀ (S : ℝ → ℝ),
+  RvmClock.ZetaLines.ExplicitInputs →
+    ∀ (chi : ℂ → ℂ),
+      (∀ σ ∈ Set.Icc (-1e-2) (1 / 2),
+          ∀ (t : ℝ),
+            98 ≤ t →
+              riemannZeta (RvmClock.ZetaLines.sp σ t) =
+                chi (RvmClock.ZetaLines.sp σ t) * riemannZeta (1 - RvmClock.ZetaLines.sp σ t)) →
+        (∀ σ ∈ Set.Icc (-1e-2) (1 / 2),
+            ∀ (t : ℝ), 98 ≤ t → ‖chi (RvmClock.ZetaLines.sp σ t)‖ ≤ 1.0070 * (t / (2 * Real.pi)) ^ (1 / 2 - σ)) →
+          ∀ (Z : ℝ → ℕ → ℝ) (A0 D1 D2 E : ℝ → ℝ),
+            (∀ (T : ℝ),
+                100 ≤ T →
+                  ∀ (Ψ : ℝ → ℝ),
+                    (∀ (θ : ℝ), Ψ (-θ) = Ψ θ) →
+                      (∀ (n : ℕ),
+                          1 ≤ n →
+                            ∀ (θ : ℝ),
+                              1 / ↑n *
+                                  Real.log
+                                    ‖RvmClock.Backlund.fB T n
+                                        (RvmClock.Backlund.pt RvmClock.Explicit.cc RvmClock.Explicit.RR θ)‖ ≤
+                                Ψ θ) →
+                        ∃ nm,
+                          StrictMono nm ∧
+                            ∀ ε > 0,
+                              ∃ M,
+                                ∀ m ≥ M,
+                                  Z T (nm m) ≤
+                                    (Real.log
+                                          (RvmClock.Thm13.zetaC /
+                                            (√((RvmClock.Explicit.cc - 1) ^ 2 + T ^ 2) * RvmClock.Thm13.zeta2C)) +
+                                        1 / Real.pi * ∫ (θ : ℝ) in 0..Real.pi, Ψ θ) +
+                                      ε) →
+              (∀ (T : ℝ),
+                  100 ≤ T →
+                    ∀ (n : ℕ),
+                      1 ≤ n →
+                        |D2 T| ≤
+                          Real.pi * Z T n / (2 * RvmClock.Explicit.dd) + E T / 2 + 3 * Real.pi / (2 * ↑n) +
+                            Real.pi / 4) →
+                (∀ (T : ℝ),
+                    100 ≤ T → E T / Real.pi ≤ (640 * RvmClock.Explicit.delS - 112) / (1536 * (3 * T - 1)) + 1 / 1024) →
+                  (∀ (T : ℝ), 100 ≤ T → Real.pi * S T = A0 T + D2 T - D1 T) →
+                    (∀ (T : ℝ), 100 ≤ T → |A0 T| ≤ Real.log RvmClock.Thm13.zetaS) →
+                      (∀ (T : ℝ),
+                          100 ≤ T →
+                            D1 T =
+                              Real.arctan
+                                  ((RvmClock.Explicit.cc + (RvmClock.Explicit.cc - 1 / 2) ^ 2 / RvmClock.Explicit.RR -
+                                      1) /
+                                    T) +
+                                Real.arctan (1 / (2 * T))) →
+                        (∀ (T : ℝ), Real.exp 1 ≤ T → T ≤ 100 → |S T| ≤ 2.5167) →
+                          ∀ (T : ℝ),
+                            Real.exp 1 ≤ T → |S T| ≤ 9783e-5 * Real.log T + 0.7214 * Real.log (Real.log T) + 10.6
+RvmClock.ZetaFacts.theorem_1_3_lit : ∀ (S : ℝ → ℝ),
+  (∀ (t : ℝ),
+      3 < |t| →
+        |t| ≤ Real.exp 105 → ‖riemannZeta (RvmClock.ZetaLines.sp (1 / 2) t)‖ ≤ 0.618 * |t| ^ (1 / 6) * Real.log |t|) →
+    (∀ (t : ℝ), Real.exp 105 < |t| → ‖riemannZeta (RvmClock.ZetaLines.sp (1 / 2) t)‖ ≤ 66.7 * |t| ^ (27 / 164)) →
+      (∀ (m : ℕ),
+          4 ≤ m →
+            m ≤ 9 →
+              ∀ (t : ℝ),
+                3 ≤ |t| →
+                  ‖riemannZeta (RvmClock.ZetaLines.sp (1 - ↑m / (2 ^ m - 2)) t)‖ ≤
+                    2 * |t| ^ (1 / (2 ^ m - 2)) * Real.log |t|) →
+        (∀ (t : ℝ), 3 ≤ |t| → ‖riemannZeta (RvmClock.ZetaLines.sp 1 t)‖ ≤ Real.log |t|) →
+          (∀ σ ∈ Set.Icc (1 / 2) 3,
+              ∀ (t : ℝ),
+                ‖RvmClock.ZetaLines.Xi (RvmClock.ZetaLines.sp σ t)‖ ≤
+                  ‖RvmClock.ZetaLines.sp σ t‖ + 2 * ‖RvmClock.ZetaLines.sp σ t‖ * ‖RvmClock.ZetaLines.sp σ t - 1‖) →
+            (∀ (a b α β : ℝ),
+                a < b →
+                  1 - a < 10 →
+                    β ≤ α →
+                      0 ≤ β →
+                        (∀ (t : ℝ),
+                            ‖RvmClock.ZetaLines.Xi (RvmClock.ZetaLines.sp a t)‖ ≤
+                              2 * ‖10 + RvmClock.ZetaLines.sp a t‖ ^ α *
+                                ‖Complex.log (10 + RvmClock.ZetaLines.sp a t)‖) →
+                          (∀ (t : ℝ),
+                              ‖RvmClock.ZetaLines.Xi (RvmClock.ZetaLines.sp b t)‖ ≤
+                                2 * ‖10 + RvmClock.ZetaLines.sp b t‖ ^ β *
+                                  ‖Complex.log (10 + RvmClock.ZetaLines.sp b t)‖) →
+                            ∀ σ ∈ Set.Icc a b,
+                              ∀ (t : ℝ),
+                                ‖RvmClock.ZetaLines.Xi (RvmClock.ZetaLines.sp σ t)‖ ≤
+                                  (2 * ‖10 + RvmClock.ZetaLines.sp σ t‖ ^ α) ^ ((b - σ) / (b - a)) *
+                                      (2 * ‖10 + RvmClock.ZetaLines.sp σ t‖ ^ β) ^ ((σ - a) / (b - a)) *
+                                    ‖Complex.log (10 + RvmClock.ZetaLines.sp σ t)‖) →
+              (∀ σ ∈ Set.Icc (-1e-2) (1 / 2),
+                  ∀ (t : ℝ),
+                    98 ≤ t →
+                      ‖RvmClock.ZetaFacts.chi (RvmClock.ZetaLines.sp σ t)‖ ≤
+                        1.0070 * (t / (2 * Real.pi)) ^ (1 / 2 - σ)) →
+                ∀ (Z : ℝ → ℕ → ℝ) (A0 D1 D2 E : ℝ → ℝ),
+                  (∀ (T : ℝ),
+                      100 ≤ T →
+                        ∀ (Ψ : ℝ → ℝ),
+                          (∀ (θ : ℝ), Ψ (-θ) = Ψ θ) →
+                            (∀ (n : ℕ),
+                                1 ≤ n →
+                                  ∀ (θ : ℝ),
+                                    1 / ↑n *
+                                        Real.log
+                                          ‖RvmClock.Backlund.fB T n
+                                              (RvmClock.Backlund.pt RvmClock.Explicit.cc RvmClock.Explicit.RR θ)‖ ≤
+                                      Ψ θ) →
+                              ∃ nm,
+                                StrictMono nm ∧
+                                  ∀ ε > 0,
+                                    ∃ M,
+                                      ∀ m ≥ M,
+                                        Z T (nm m) ≤
+                                          (Real.log
+                                                (RvmClock.Thm13.zetaC /
+                                                  (√((RvmClock.Explicit.cc - 1) ^ 2 + T ^ 2) * RvmClock.Thm13.zeta2C)) +
+                                              1 / Real.pi * ∫ (θ : ℝ) in 0..Real.pi, Ψ θ) +
+                                            ε) →
+                    (∀ (T : ℝ),
+                        100 ≤ T →
+                          ∀ (n : ℕ),
+                            1 ≤ n →
+                              |D2 T| ≤
+                                Real.pi * Z T n / (2 * RvmClock.Explicit.dd) + E T / 2 + 3 * Real.pi / (2 * ↑n) +
+                                  Real.pi / 4) →
+                      (∀ (T : ℝ),
+                          100 ≤ T →
+                            E T / Real.pi ≤ (640 * RvmClock.Explicit.delS - 112) / (1536 * (3 * T - 1)) + 1 / 1024) →
+                        (∀ (T : ℝ), 100 ≤ T → Real.pi * S T = A0 T + D2 T - D1 T) →
+                          (∀ (T : ℝ), 100 ≤ T → |A0 T| ≤ Real.log RvmClock.Thm13.zetaS) →
+                            (∀ (T : ℝ),
+                                100 ≤ T →
+                                  D1 T =
+                                    Real.arctan
+                                        ((RvmClock.Explicit.cc +
+                                              (RvmClock.Explicit.cc - 1 / 2) ^ 2 / RvmClock.Explicit.RR -
+                                            1) /
+                                          T) +
+                                      Real.arctan (1 / (2 * T))) →
+                              (∀ (T : ℝ), Real.exp 1 ≤ T → T ≤ 100 → |S T| ≤ 2.5167) →
+                                ∀ (T : ℝ),
+                                  Real.exp 1 ≤ T → |S T| ≤ 9783e-5 * Real.log T + 0.7214 * Real.log (Real.log T) + 10.6
+def RvmClock.ZetaFacts.chi : ℂ → ℂ :=
+fun s => 2 * (2 * ↑Real.pi) ^ (s - 1) * Complex.Gamma (1 - s) * Complex.sin (↑Real.pi * s / 2)
+AUDIT OK
